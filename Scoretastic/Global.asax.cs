@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
+using Scoretastic.Configuration;
 
 namespace Scoretastic
 {
@@ -12,7 +13,7 @@ namespace Scoretastic
 
         protected void Application_Start(object sender, EventArgs e)
         {
-
+            StartFubuMvc.Start();
         }
 
         protected void Session_Start(object sender, EventArgs e)

@@ -109,8 +109,8 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\FubuMVC.cs" />
-    <Compile Include="ConfigureFubuMVC.cs" />
+    <Compile Include="Configuration\ConfigureFubuMVC.cs" />
+    <Compile Include="Configuration\StartFubuMvc.cs" />
     <Compile Include="Endpoints\Home\HomeEndpoint.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
