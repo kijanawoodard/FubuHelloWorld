@@ -1,10 +1,10 @@
 ﻿<use master="Application"/>
 <viewdata model="Scoretastic.Endpoints.Home.HomeViewModel" />
 
-<content:title>Home fdfdf</content:title>
+<content:title>Home</content:title>
 
-<Stylesheet href="bar.css" />
-<Script src="foo.js" />
+<!--<Stylesheet href="bar.css" />-->
+<!--<Script src="foo.js" />-->
 
 <form>
     <h1>Log In</h1>
