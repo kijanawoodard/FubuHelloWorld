@@ -1,9 +1,20 @@
-﻿<viewdata model="Scoretastic.Endpoints.Home.HomeViewModel" />
-<html>
-<head>
-    <title>Home</title>
-</head>
-<body>
-    <h1>Welcome to Scoretastic</h1>
-</body>
-</html>
+﻿<use master="Application"/>
+<viewdata model="Scoretastic.Endpoints.Home.HomeViewModel" />
+
+<content:title>Home fdfdf</content:title>
+
+<Stylesheet href="bar.css" />
+<Script src="foo.js" />
+
+<form>
+    <h1>Log In</h1>
+    <fieldset id="inputs">
+        <input id="username" type="text" placeholder="Username" autofocus required>
+        <input id="password" type="password" placeholder="Password" required>
+    </fieldset>
+    <fieldset id="actions">
+        <input type="submit" id="submit" value="Log in">
+<!--            <a href="">Forgot your password?</a>-->
+<!--            <a href="">Register</a>-->
+    </fieldset>
+</form>
