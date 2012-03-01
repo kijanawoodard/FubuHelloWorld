@@ -1,9 +1,0 @@
-﻿<viewdata model="Scoretastic.Endpoints.Home.HomeViewModel" />
-<html>
-<head>
-    <title>Test</title>
-</head>
-<body>
-    <h1>${ Model.Note }</h1>
-</body>
-</html>
