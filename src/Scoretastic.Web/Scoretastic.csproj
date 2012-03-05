@@ -103,6 +103,7 @@
     <Content Include="Content\scripts\foo.js" />
     <Content Include="Content\scripts\less-1.2.2.min.js" />
     <Content Include="Content\styles\bar.css" />
+    <Content Include="Content\styles\home.css" />
     <Content Include="Content\styles\home.less" />
     <Content Include="Global.asax" />
     <Content Include="Shared\bindings.xml" />
