@@ -3,9 +3,13 @@
 
 <content:title>Home</content:title>
 
-<!--<Stylesheet href="bar.css" />-->
-<!--<Script src="foo.js" />-->
-#this.Asset("foo.js");
+<Stylesheet href="bar.css" />
+<Stylesheet href="home.css" />
+<!--<Stylesheet href="home.less" />-->
+<!--<link rel="stylesheet" href="content/styles/home.less" type="text/less" media="screen" />-->
+<Script src="foo.js" />
+<!--#this.Asset("foo.js");-->
+
 <form>
     <h1>Log In</h1>
     <fieldset id="inputs">
