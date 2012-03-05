@@ -1,0 +1,27 @@
+﻿@import 'grid.less';
+
+form { .column(5); .push(5); }
+
+#inputs input { 
+	background:  url('../../content/images/login-sprite.png') no-repeat scroll 0 0 #F1F1F1; 
+	border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 1px 1px #CCCCCC inset, 0 1px 0 #FFFFFF;
+	margin: 0 0 10px;
+    padding: 15px 15px 15px 30px;
+    width: 353px;
+}
+
+#username {
+    background-position: 5px -2px !important;
+}
+#password {
+    background-position: 5px -52px !important;
+}
+
+#inputs input:focus {
+    background-color: #FFFFFF;
+    border-color: #E8C291;
+    box-shadow: 0 0 0 1px #E8C291 inset;
+    outline: medium none;
+}
